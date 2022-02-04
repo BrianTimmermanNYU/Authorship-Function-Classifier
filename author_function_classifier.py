@@ -445,7 +445,7 @@ def main(source_data_path, out_data_path, loss_graph_title, accuracy_graph_title
 
 
 if __name__ == "__main__":
-    main(source_data_path = "GCJ_Arbitrary/100_25",
+    main(source_data_path = "Datasets/100_Authors_100_Questions",
     out_data_path = "Output",
     loss_graph_title = 'Training Epoch vs Loss Score: 100 Authors, 100 GCJ Questions',
     accuracy_graph_title = 'Training Epoch vs Accuracy Score: 100 Authors, 100 GCJ Questions',
